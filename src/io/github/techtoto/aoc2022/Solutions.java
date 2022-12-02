@@ -1,6 +1,7 @@
 package io.github.techtoto.aoc2022;
 
 import io.github.techtoto.aoc2022.day01.Day01;
+import io.github.techtoto.aoc2022.day02.Day02;
 
 import java.util.ArrayList;
 
@@ -9,6 +10,7 @@ public class Solutions {
         ArrayList<AbstractDay> days = new ArrayList<>();
 
         days.add(new Day01("day01/day01_input.txt", false, false));
+        days.add(new Day02("day02/day02_input.txt", false, false));
 
         for (AbstractDay day : days) {
             System.out.println(day.getClass().getSimpleName() + ": ");
