@@ -23,8 +23,8 @@ public abstract class AbstractDay {
         return outputs[i].toString();
     }
 
-    public void appendOutput(int solutionNr, String text) {
-        outputs[solutionNr].append(text);
+    public void appendOutput(int solutionNr, Object o) {
+        outputs[solutionNr].append(o);
     }
 
     public boolean getPrintOutput(int solutionNr) {
