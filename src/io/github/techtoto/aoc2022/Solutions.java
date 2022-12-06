@@ -5,6 +5,7 @@ import io.github.techtoto.aoc2022.day02.Day02;
 import io.github.techtoto.aoc2022.day03.Day03;
 import io.github.techtoto.aoc2022.day04.Day04;
 import io.github.techtoto.aoc2022.day05.Day05;
+import io.github.techtoto.aoc2022.day06.Day06;
 
 import java.util.ArrayList;
 
@@ -17,6 +18,7 @@ public class Solutions {
         days.add(new Day03("day03/day03_input.txt", false, false));
         days.add(new Day04("day04/day04_input.txt", false, false));
         days.add(new Day05("day05/day05_input.txt", true, true));
+        days.add(new Day06("day06/day06_input.txt", false, false));
 
         for (AbstractDay day : days) {
             System.out.println(day.getClass().getSimpleName() + ": ");
